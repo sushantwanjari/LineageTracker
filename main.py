@@ -1,4 +1,5 @@
-# This is an initial commit
-print("Hello World!!")
-#This is git Synced
-#This is to test the Streamlit app
+import streamlit as st
+
+# Create a button
+if st.button('Say Hello'):
+    st.write("Hello World!!")
